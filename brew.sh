@@ -62,10 +62,13 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" tunnelblick
+brew cask install --appdir="/Applications" mysqlworkbench
+brew cask install --appdir="/Applications" pycharm
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" thunderbird
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox

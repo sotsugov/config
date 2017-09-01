@@ -2,7 +2,7 @@
 . $CONFIGPATH/aliases.sh
 . $CONFIGPATH/functions.sh
 . $CONFIGPATH/variables.sh
-. $CONFIGPATH/private_variables.sh
+. $CONFIGPATH/extra.sh
 
 ZSH_THEME="maran"
 
