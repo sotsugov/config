@@ -17,7 +17,7 @@ Thumbs.db
 .Trashes
 
 # Files that contain credentials or personal info
-.extra
+extra.sh
 private_variables.sh
 
 # Repo scratch directory
