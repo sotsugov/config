@@ -11,9 +11,6 @@ export PATH=$PATH:/opt/X11/bin
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'
 
-# Scripts
-# export PATH="/Users/igor/anaconda2/bin:$PATH"
-
 # C flags
 export CFLAGS='-I/usr/local/opt/openssl/include'
 export CPPFLAGS='-I/usr/local/opt/openssl/include'

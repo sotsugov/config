@@ -61,6 +61,7 @@ brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" tunnelblick
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
@@ -69,9 +70,10 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" slate
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" flux
+brew cask install --appdir="/Applications" slate
 
 # Remove outdated versions from the cellar.
 brew cleanup

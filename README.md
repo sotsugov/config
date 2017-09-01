@@ -1,8 +1,6 @@
-# Laptop setup configs
-dotfiles, aliases and functions
+# dev-setup config
+dotfiles, aliases and functions based on dev-setup and .dotfiles
 
 
 ```
-./INSTALL.sh
-./SETUP.sh
 ```
