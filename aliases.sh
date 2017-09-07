@@ -10,7 +10,6 @@ alias -- -="cd -"
 alias d="cd ~/dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias g="git"
 alias h="history"
 alias j="jobs"
 
@@ -90,7 +89,7 @@ alias reload="exec $SHELL -l"
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # GIT ALIASES
-alias g=git
+alias g='git'
 alias ga='git add'
 alias gau='git add -u .'
 alias gb='git branch'

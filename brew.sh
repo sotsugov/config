@@ -50,6 +50,9 @@ brew install python3
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
+# Couchbase
+brew install libcouchbase
+
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2

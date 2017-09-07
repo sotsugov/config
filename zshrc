@@ -3,6 +3,7 @@
 . $CONFIGPATH/functions.sh
 . $CONFIGPATH/variables.sh
 . $CONFIGPATH/extra.sh
+. ~/.extra
 
 ZSH_THEME="maran"
 

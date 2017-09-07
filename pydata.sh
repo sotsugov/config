@@ -77,9 +77,45 @@ mkvirtualenv nexmo-qa
 workon nexmo-qa
 
 # Install Python nexmoqa modules
-pip install mysql-python
-pip install scipy
-# TODO: Fetch requirements from qatests
+# pip install crypt
+# pip install boto3
+# pip install botocore
+# pip install browsermob-proxy
+# pip install confluent_kafka
+# pip install couchbase
+# pip install fabric
+# pip install fasteners
+# pip install flask
+# pip install google-auth
+# pip install google-cloud
+# pip install grequests
+# pip install lxml
+# pip install mysql-connector==2.1.6
+# pip install MySQL-python
+# pip install pandas
+# pip install paramiko
+# pip install phonenumbers
+# pip install pillow
+# pip install pymongo
+# pip install pytest
+# pip install pytest-xdist
+# pip install python-consul
+# pip install python-dateutil
+# pip install python-jose
+# pip install python-magic
+# pip install pyvirtualdisplay
+# pip install requests
+# pip install scipy
+# pip install selenium==2.53.1
+# pip install socketIO_client
+# pip install SpeechRecognition
+# pip install sqlparse
+# pip install statistics
+# pip install Wand
+# pip install xlrd
+# pip install xmltodict
+pip install -r https://gist.githubusercontent.com/sotsugov/4f61c1e61868047894a2fd751280e126/raw/89055dfe85bc1d1a0c2b60e3a267e08455996d31/requirements.txt
+
 
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
