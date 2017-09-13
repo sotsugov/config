@@ -1772,7 +1772,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 4</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents</string>
+	<string>~/Downloads</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1822,9 +1822,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1280 778 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>213 209 796 473 0 0 1280 778 </string>
+	<string>213 262 796 473 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>4 226 900 552 0 0 1280 778 </string>
+	<string>4 0 1276 778 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>113 89 585 402 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
@@ -2004,9 +2004,9 @@
 				<key>Blue Component</key>
 				<real>0.0</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.1491314172744751</real>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
@@ -2053,11 +2053,11 @@
 				<key>Blue Component</key>
 				<real>1</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.91000000000000003</real>
+				<real>0.9268307089805603</real>
 				<key>Red Component</key>
-				<real>0.65000000000000002</real>
+				<real>0.70213186740875244</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -2398,13 +2398,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.67800000000000005</real>
+				<real>0.73423302173614502</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.27000000000000002</real>
+				<real>0.35916060209274292</real>
 				<key>Red Component</key>
-				<real>0.023</real>
+				<real>0.0</real>
 			</dict>
 			<key>Log Directory</key>
 			<string></string>
@@ -2725,7 +2725,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-03T18:38:07Z</date>
+	<date>2017-09-13T08:09:16Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2775,7 +2775,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.beta.8</string>
+	<string>3.1.beta.9</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>
