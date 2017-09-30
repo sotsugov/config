@@ -142,8 +142,47 @@ pip install "ipython[all]"
 pip install bokeh
 pip install Flask
 pip install sqlalchemy
-#pip install mysql-python  # Python 2 only, use mysqlclient instead
 pip install mysqlclient
+
+###############################################################################
+# Python 3 Deep Learning Virtual Enviroment                                   #
+###############################################################################
+
+echo "------------------------------"
+echo "Setting up dl virtual environment."
+
+# Create a Python3 data environment
+mkvirtualenv --python=/usr/local/bin/python3 dl
+workon dl
+
+# Install Python data modules
+pip install numpy
+pip install scipy
+pip install matplotlib
+pip install pandas
+pip install sympy
+pip install nose
+pip install unittest2
+pip install seaborn
+pip install scikit-learn
+pip install "ipython[all]"
+pip install bokeh
+pip install Flask
+pip install sqlalchemy
+pip install mysqlclient
+pip install ipython-genutils
+pip install jupyter-client
+pip install jupyter-console
+pip install jupyter-core
+pip install keras
+pip install moviepy
+pip install prompt-toolkit
+pip install protobuf
+pip install pyyaml
+# pip install tensorflow-gpu
+pip install tensorflow
+pip install theano
+pip install tqdm
 
 ###############################################################################
 # Install IPython Profile
@@ -161,3 +200,4 @@ echo "Script completed."
 echo "Usage: workon nexmo-qa for Python2"
 echo "Usage: workon py2-data for Python2"
 echo "Usage: workon py3-data for Python3"
+echo "Usage: workon dl for Python3"
