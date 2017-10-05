@@ -33,6 +33,12 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
+# Install more recent versions of some macOS tools.
+brew install vim --with-override-system-vi
+brew install grep
+brew install openssh
+brew install screen
+
 # Install zsh
 brew install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -53,6 +59,33 @@ brew tap caskroom/versions
 # Couchbase
 brew install libcouchbase
 
+# Install other useful binaries.
+brew install ack
+brew install git
+brew install git-lfs
+brew install imagemagick --with-webp
+brew install lua
+brew install lynx
+brew install p7zip
+brew install pigz
+brew install pv
+brew install rename
+brew install rlwrap
+brew install ssh-copy-id
+brew install tree
+brew install vbindiff
+brew install zopfli
+
+# Install data stores
+brew install mysql
+brew install postgresql
+brew install mongo
+brew install redis
+brew install elasticsearch
+
+# Install Cask
+brew install caskroom/cask/brew-cask
+
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
@@ -60,6 +93,7 @@ brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
+brew cask install --appdir="/Applications" couchbase-server-community
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
