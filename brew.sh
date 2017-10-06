@@ -82,6 +82,7 @@ brew install mysql
 brew install postgresql
 brew install mongo
 brew install redis
+brew cask install java
 brew install elasticsearch
 
 # Install Cask
@@ -97,11 +98,11 @@ brew cask install --appdir="~/Applications" xquartz
 brew cask install --appdir="/Applications" couchbase-server-community
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
+# brew cask install --appdir="/Applications" virtualbox
+# brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" tunnelblick
 brew cask install --appdir="/Applications" mysqlworkbench
-brew cask install --appdir="/Applications" pycharm
+# brew cask install --appdir="/Applications" pycharm
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
