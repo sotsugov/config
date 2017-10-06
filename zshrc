@@ -3,7 +3,6 @@
 . $CONFIGPATH/functions.sh
 . $CONFIGPATH/variables.sh
 . $CONFIGPATH/extra.sh
-. ~/.extra
 
 ZSH_THEME="maran"
 
@@ -45,6 +44,7 @@ plugins=(git brew dircycle jsontools npm osx python)
 
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 # export MANPATH="/usr/local/man:$MANPATH"

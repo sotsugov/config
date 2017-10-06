@@ -6,6 +6,11 @@
 # This script might be run with .dots, which uses elevated privileges
 sudo -K
 
+# Some systems will get
+# OSError: [Errno 1] Operation not permitted: '/System/Library/Frameworks/Python.framework/
+# So let's make sure user owns python directory
+sudo chown -R $USER /Library/Python/2.7
+
 echo "------------------------------"
 echo "Setting up pip."
 
@@ -23,12 +28,15 @@ echo "Setting up virtual environments."
 # It fails to install virtualenv if PIP_REQUIRE_VIRTUALENV was true
 export PIP_REQUIRE_VIRTUALENV=false
 pip install virtualenv
+
+# https://github.com/pypa/pip/issues/3165
+pip install --ignore-installed six
 pip install virtualenvwrapper
 
 echo "------------------------------"
 echo "Source virtualenvwrapper from ~/.extra"
 
-EXTRA_PATH=~/.extra
+EXTRA_PATH=$(pwd)/extra.sh
 echo $EXTRA_PATH
 echo "" >> $EXTRA_PATH
 echo "" >> $EXTRA_PATH

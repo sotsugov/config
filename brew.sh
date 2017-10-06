@@ -44,6 +44,7 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew install fasd
 brew install oh-my-zsh
+brew install zsh-autosuggestions
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
