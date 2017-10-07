@@ -60,6 +60,9 @@ brew tap caskroom/versions
 # Couchbase
 brew install libcouchbase
 
+# Kafka
+brew install librdkafka
+
 # Install other useful binaries.
 brew install ack
 brew install git
