@@ -46,6 +46,18 @@ function s() {
     fi;
 }
 
+
+# `a` with no arguments opens the current directory in Atom, otherwise
+# opens the given location
+function a() {
+    if [ $# -eq 0 ]; then
+        atom .;
+    else
+        atom "$@";
+    fi;
+}
+
+
 # `o` with no arguments opens the current directory, otherwise opens the given
 # location
 function o() {

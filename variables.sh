@@ -51,3 +51,12 @@ export PATH=$JAVA_HOME/jre/bin:$PATH
 export MYSQLXPB_PROTOBUF_INCLUDE_DIR="/usr/local/opt/protobuf/include"
 export MYSQLXPB_PROTOBUF_LIB_DIR="/usr/local/opt/protobuf/lib"
 export MYSQLXPB_PROTOC="/usr/local/bin/protoc"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Defaults for CS/NODE
+export NODE_ENV=local
