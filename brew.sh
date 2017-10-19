@@ -19,7 +19,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -38,13 +38,6 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-
-# Install zsh
-brew install zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-brew install fasd
-brew install oh-my-zsh
-brew install zsh-autosuggestions
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -120,5 +113,14 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" slate
 
+# Install zsh
+brew install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install fasd
+brew install oh-my-zsh
+brew install zsh-autosuggestions
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+
