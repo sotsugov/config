@@ -47,14 +47,6 @@ function runDots() {
             echo ""
             ./osx.sh
         fi
-        if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
-            # Run the pydata.sh Script
-            echo "------------------------------"
-            echo "Setting up Python data development environment."
-            echo "------------------------------"
-            echo ""
-            ./pydata.sh
-        fi
         if [ $ARG == "extra" ] || [ $ARG == "all" ]; then
             # Run the extra.sh Script
             echo "------------------------------"
@@ -62,6 +54,14 @@ function runDots() {
             echo "------------------------------"
             echo ""
             ./extra.sh
+        fi
+        if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
+            # Run the pydata.sh Script
+            echo "------------------------------"
+            echo "Setting up Python data development environment."
+            echo "------------------------------"
+            echo ""
+            ./pydata.sh
         fi
     done
 
