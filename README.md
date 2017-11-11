@@ -11,3 +11,14 @@ To run everything
 ```
 $ ./.dots all
 ```
+
+Install latest macOS X (tested on macOS Sierra)
+```
+./brew
+./osx.sh
+```
+
+Open Slate, for it to create first-time configs, then run
+```
+./setup.sh
+```

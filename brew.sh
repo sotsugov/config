@@ -98,7 +98,7 @@ brew cask install --appdir="/Applications" atom
 # brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" tunnelblick
 brew cask install --appdir="/Applications" mysqlworkbench
-# brew cask install --appdir="/Applications" pycharm
+brew cask install --appdir="/Applications" pycharm
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome

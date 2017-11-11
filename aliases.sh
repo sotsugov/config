@@ -101,3 +101,5 @@ alias gs='git status'
 alias gd='git diff | $GIT_EDITOR -'
 alias gmv='git mv'
 alias glog='git log'
+
+alias crontab='VIM_CRONTAB=true crontab'
