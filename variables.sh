@@ -62,3 +62,4 @@ export NODE_ENV=local
 
 # Imagemagic
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+
