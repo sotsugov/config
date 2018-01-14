@@ -63,3 +63,6 @@ export NODE_ENV=local
 # Imagemagic
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
+# python brew
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export VIRTUALENVWRAPPER_PYTHON='/usr/local/opt/python/libexec/bin/python'

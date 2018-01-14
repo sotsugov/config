@@ -94,8 +94,7 @@ brew cask install --appdir="~/Applications" xquartz
 brew cask install --appdir="/Applications" couchbase-server-community
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
-# brew cask install --appdir="/Applications" virtualbox
-# brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" tunnelblick
 brew cask install --appdir="/Applications" mysqlworkbench
 brew cask install --appdir="/Applications" pycharm
@@ -110,7 +109,6 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" slate
 
 # Install zsh

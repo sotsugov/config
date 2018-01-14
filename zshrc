@@ -58,3 +58,5 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 # ssh
+
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
