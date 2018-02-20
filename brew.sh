@@ -46,8 +46,6 @@ brew install wget --with-iri
 brew install python
 brew install python3
 
-# Install Cask
-brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # Couchbase
@@ -80,9 +78,6 @@ brew install mongo
 brew install redis
 brew cask install java
 brew install elasticsearch
-
-# Install Cask
-brew install caskroom/cask/brew-cask
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
