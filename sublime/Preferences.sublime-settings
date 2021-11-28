@@ -2,8 +2,8 @@
     "color_inactive_tabs": true,
     "color_scheme": "Packages/Enki Theme/scheme/Enki-Tokyo-Night.tmTheme",
     "default_encoding": "UTF-8",
-    "font_face": "MonoLisa",
-    "font_size": 13,
+    "font_face": "Cascadia Code",
+    "font_size": 15,
     "detect_indentation": true,
     "dictionary": "Packages/Language - English/en_GB.dic",
     "draw_white_space": "all",
@@ -47,6 +47,6 @@
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "use_tab_stops": true,
-    "word_wrap": false,
+    "word_wrap": true,
     "wrap_width": 99
 }
