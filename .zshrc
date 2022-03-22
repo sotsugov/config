@@ -1,4 +1,5 @@
 # Path to your oh-my-zsh configuration.
+CONFIGPATH='/Users/igors/Developer/personal/config'
 source $CONFIGPATH/.aliases
 source $CONFIGPATH/.functions
 source $CONFIGPATH/.exports
@@ -14,9 +15,9 @@ fi
 export ZSH="/Users/igors/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git)
-
+# Add plugins
+plugins=(git github gh zsh-syntax-highlighting zsh-autosuggestions sudo history kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f $CONFIGPATH/.p10k.zsh ]] || source $CONFIGPATH/.p10k.zsh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
