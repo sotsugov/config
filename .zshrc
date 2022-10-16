@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-CONFIGPATH='/Users/igors/Developer/personal/config'
+CONFIGPATH='/Users/igors/Developer/config'
 source $CONFIGPATH/.aliases
 source $CONFIGPATH/.functions
 source $CONFIGPATH/.exports
@@ -21,3 +21,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
