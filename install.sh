@@ -8,8 +8,8 @@ cd $dir
 git clone --recursive https://github.com/sotsugov/config.git
 cd config
 
-echo CONFIGPATH=`pwd` > ~/.zshrc
-echo '. $CONFIGPATH/.zshrc' >> ~/.zshrc
+echo CONFIGPATH=$(pwd) >~/.zshrc
+echo '. $CONFIGPATH/.zshrc' >>~/.zshrc
 
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
