@@ -103,7 +103,7 @@ function gz() {
 }
 
 # Run `dig` and display the most useful info
-function digga() {
+function diggz() {
   dig +nocmd "$1" any +multiline +noall +answer
 }
 

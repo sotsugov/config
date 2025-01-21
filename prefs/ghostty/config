@@ -1,0 +1,6 @@
+keybind = ctrl+d=new_split:right
+keybind = ctrl+z=close_surface
+
+theme = "tokyonight"
+font-family = "Berkeley Mono"
+font-thicken

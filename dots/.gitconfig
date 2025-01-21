@@ -183,5 +183,19 @@
     defaultBranch = main
 
 [user]
+
 	name = Igor Sotsugov
 	email = 234929+sotsugov@users.noreply.github.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINd367V11XEJezQ+N79XSEWSRAaITH8tKtdMhX/sOiTJ
+
+[credential]
+
+    helper = osxkeychain
+
+[gpg]
+
+    format = ssh
+
+[gpg "ssh"]
+
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"

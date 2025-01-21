@@ -10,15 +10,17 @@ while true; do
   sleep 60
   kill -0 "$$" || exit
 done 2>/dev/null &
+
 # Set computer name (as done via System Preferences → Sharing)
-# sudo scutil --set ComputerName "anacreon"
-# sudo scutil --set HostName "anacreon"
-# sudo scutil --set LocalHostName "anacreon"
-# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "anacreon"
+# sudo scutil --set ComputerName "pendulum"
+# sudo scutil --set HostName "pendulum"
+# sudo scutil --set LocalHostName "pendulum"
+# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "pendulum"
+
 # Set highlight color to graphite
 defaults write NSGlobalDomain AppleHighlightColor -string "0.847059 0.847059 0.862745"
 # Set sidebar icon size to small
-defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
+# defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -86,8 +88,9 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 
 # Use list view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `glyv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# Four-letter codes for the other view modes: `clmv`, `Nlsv`, `glyv`, `icnv`
+defaults write com.apple.finder FXPreferredViewStyle -string Nlsv
+
 # Show the ~/Library folder
 chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 # Show the /Volumes folder
@@ -133,7 +136,12 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 defaults write com.apple.dock wvous-br-corner -int 3
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2>/dev/null
+# Position dock on the left
+defaults write com.apple.dock orientation -string left
+# Remove all items from dock
+defaults write com.apple.dock persistent-apps -array
+
+# Make fn key to switch between input sources
+defaults write com.apple.HIToolbox AppleFnUsageType -int 1
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."

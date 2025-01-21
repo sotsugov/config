@@ -37,11 +37,18 @@ export GPG_TTY=$(tty)
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"                                       # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # deno
 export DENO_INSTALL="/Users/o/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY="sk-"
+
+# pipx
+export PATH="$PATH:/Users/isv/.local/bin"
+
+# 1password
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
