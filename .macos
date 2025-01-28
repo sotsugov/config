@@ -144,4 +144,8 @@ defaults write com.apple.dock persistent-apps -array
 # Make fn key to switch between input sources
 defaults write com.apple.HIToolbox AppleFnUsageType -int 1
 
+# Fast keyboard key repeat rate
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 1
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
